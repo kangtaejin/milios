@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		975354DC2C59BEE900C40CF3 /* taejinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975354DB2C59BEE900C40CF3 /* taejinApp.swift */; };
+		975354DE2C59BEE900C40CF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975354DD2C59BEE900C40CF3 /* ContentView.swift */; };
+		975354E02C59BEEA00C40CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975354DF2C59BEEA00C40CF3 /* Assets.xcassets */; };
+		975354E32C59BEEA00C40CF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975354E22C59BEEA00C40CF3 /* Preview Assets.xcassets */; };
+		975354E52C59BEEA00C40CF3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975354E42C59BEEA00C40CF3 /* Persistence.swift */; };
+		975354E82C59BEEA00C40CF3 /* taejin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 975354E62C59BEEA00C40CF3 /* taejin.xcdatamodeld */; };
+		975354EF2C59D3E900C40CF3 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975354EE2C59D3E900C40CF3 /* ArticleViewModel.swift */; };
+		975354F12C59D59200C40CF3 /* Headline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975354F02C59D59200C40CF3 /* Headline.swift */; };
+		975354F32C59D6C800C40CF3 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975354F22C59D6C800C40CF3 /* ApiService.swift */; };
+		975354F52C59FE3400C40CF3 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975354F42C59FE3400C40CF3 /* WebView.swift */; };
+		97557F702C5B1160002FA165 /* ArticleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97557F6F2C5B1160002FA165 /* ArticleRepository.swift */; };
+		ED565C8102C6B10A34F2B124 /* Pods_taejin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FA832EA02E7C230BF72476 /* Pods_taejin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1194383B46C7C0B6A3495824 /* Pods-taejin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taejin.release.xcconfig"; path = "Target Support Files/Pods-taejin/Pods-taejin.release.xcconfig"; sourceTree = "<group>"; };
+		848E36F94A39599591E98171 /* Pods-taejin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taejin.debug.xcconfig"; path = "Target Support Files/Pods-taejin/Pods-taejin.debug.xcconfig"; sourceTree = "<group>"; };
+		87FA832EA02E7C230BF72476 /* Pods_taejin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taejin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		975354D82C59BEE900C40CF3 /* taejin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taejin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		975354DB2C59BEE900C40CF3 /* taejinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taejinApp.swift; sourceTree = "<group>"; };
+		975354DD2C59BEE900C40CF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		975354DF2C59BEEA00C40CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		975354E22C59BEEA00C40CF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		975354E42C59BEEA00C40CF3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		975354E72C59BEEA00C40CF3 /* taejin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = taejin.xcdatamodel; sourceTree = "<group>"; };
+		975354EE2C59D3E900C40CF3 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		975354F02C59D59200C40CF3 /* Headline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headline.swift; sourceTree = "<group>"; };
+		975354F22C59D6C800C40CF3 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		975354F42C59FE3400C40CF3 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		97557F6F2C5B1160002FA165 /* ArticleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRepository.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		975354D52C59BEE900C40CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED565C8102C6B10A34F2B124 /* Pods_taejin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0235F5F2CBB612FE5ED4F567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87FA832EA02E7C230BF72476 /* Pods_taejin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		975354CF2C59BEE800C40CF3 = {
+			isa = PBXGroup;
+			children = (
+				975354DA2C59BEE900C40CF3 /* taejin */,
+				975354D92C59BEE900C40CF3 /* Products */,
+				E6B9B3D7F827DD1C0C543F27 /* Pods */,
+				0235F5F2CBB612FE5ED4F567 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		975354D92C59BEE900C40CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				975354D82C59BEE900C40CF3 /* taejin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		975354DA2C59BEE900C40CF3 /* taejin */ = {
+			isa = PBXGroup;
+			children = (
+				97557F6E2C5B112F002FA165 /* data */,
+				975354F82C5A01BD00C40CF3 /* view */,
+				975354F62C5A018F00C40CF3 /* model */,
+				975354DB2C59BEE900C40CF3 /* taejinApp.swift */,
+				975354DF2C59BEEA00C40CF3 /* Assets.xcassets */,
+				975354E42C59BEEA00C40CF3 /* Persistence.swift */,
+				975354E62C59BEEA00C40CF3 /* taejin.xcdatamodeld */,
+				975354E12C59BEEA00C40CF3 /* Preview Content */,
+			);
+			path = taejin;
+			sourceTree = "<group>";
+		};
+		975354E12C59BEEA00C40CF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				975354E22C59BEEA00C40CF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		975354F62C5A018F00C40CF3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				975354F02C59D59200C40CF3 /* Headline.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		975354F72C5A01A800C40CF3 /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				975354F22C59D6C800C40CF3 /* ApiService.swift */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		975354F82C5A01BD00C40CF3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				975354F42C59FE3400C40CF3 /* WebView.swift */,
+				975354DD2C59BEE900C40CF3 /* ContentView.swift */,
+				975354EE2C59D3E900C40CF3 /* ArticleViewModel.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		97557F6E2C5B112F002FA165 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				975354F72C5A01A800C40CF3 /* remote */,
+				97557F6F2C5B1160002FA165 /* ArticleRepository.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		E6B9B3D7F827DD1C0C543F27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				848E36F94A39599591E98171 /* Pods-taejin.debug.xcconfig */,
+				1194383B46C7C0B6A3495824 /* Pods-taejin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		975354D72C59BEE900C40CF3 /* taejin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 975354EB2C59BEEA00C40CF3 /* Build configuration list for PBXNativeTarget "taejin" */;
+			buildPhases = (
+				452036C5E10C8C0B69F24714 /* [CP] Check Pods Manifest.lock */,
+				975354D42C59BEE900C40CF3 /* Sources */,
+				975354D52C59BEE900C40CF3 /* Frameworks */,
+				975354D62C59BEE900C40CF3 /* Resources */,
+				89D2B5A58CD7DF93BD828CBE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taejin;
+			productName = taejin;
+			productReference = 975354D82C59BEE900C40CF3 /* taejin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		975354D02C59BEE800C40CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					975354D72C59BEE900C40CF3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 975354D32C59BEE800C40CF3 /* Build configuration list for PBXProject "taejin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 975354CF2C59BEE800C40CF3;
+			productRefGroup = 975354D92C59BEE900C40CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				975354D72C59BEE900C40CF3 /* taejin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		975354D62C59BEE900C40CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975354E32C59BEEA00C40CF3 /* Preview Assets.xcassets in Resources */,
+				975354E02C59BEEA00C40CF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		452036C5E10C8C0B69F24714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-taejin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89D2B5A58CD7DF93BD828CBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taejin/Pods-taejin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taejin/Pods-taejin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taejin/Pods-taejin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		975354D42C59BEE900C40CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975354E52C59BEEA00C40CF3 /* Persistence.swift in Sources */,
+				975354F52C59FE3400C40CF3 /* WebView.swift in Sources */,
+				975354DE2C59BEE900C40CF3 /* ContentView.swift in Sources */,
+				975354E82C59BEEA00C40CF3 /* taejin.xcdatamodeld in Sources */,
+				975354EF2C59D3E900C40CF3 /* ArticleViewModel.swift in Sources */,
+				975354DC2C59BEE900C40CF3 /* taejinApp.swift in Sources */,
+				975354F32C59D6C800C40CF3 /* ApiService.swift in Sources */,
+				97557F702C5B1160002FA165 /* ArticleRepository.swift in Sources */,
+				975354F12C59D59200C40CF3 /* Headline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		975354E92C59BEEA00C40CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		975354EA2C59BEEA00C40CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		975354EC2C59BEEA00C40CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848E36F94A39599591E98171 /* Pods-taejin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"taejin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mili.taejin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		975354ED2C59BEEA00C40CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1194383B46C7C0B6A3495824 /* Pods-taejin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"taejin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mili.taejin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		975354D32C59BEE800C40CF3 /* Build configuration list for PBXProject "taejin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975354E92C59BEEA00C40CF3 /* Debug */,
+				975354EA2C59BEEA00C40CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		975354EB2C59BEEA00C40CF3 /* Build configuration list for PBXNativeTarget "taejin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975354EC2C59BEEA00C40CF3 /* Debug */,
+				975354ED2C59BEEA00C40CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		975354E62C59BEEA00C40CF3 /* taejin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				975354E72C59BEEA00C40CF3 /* taejin.xcdatamodel */,
+			);
+			currentVersion = 975354E72C59BEEA00C40CF3 /* taejin.xcdatamodel */;
+			path = taejin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 975354D02C59BEE800C40CF3 /* Project object */;
+}

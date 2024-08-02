@@ -1,0 +1,6 @@
+framework module Pods_taejin {
+  umbrella header "Pods-taejin-umbrella.h"
+
+  export *
+  module * { export * }
+}
